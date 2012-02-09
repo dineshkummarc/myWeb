@@ -1,0 +1,93 @@
+* {
+margin: 0;
+padding 0;
+}
+
+body {
+font-size: 16px;
+
+}
+
+article {
+background: #DDDDDD;
+border-radius: 10px;
+font-family: verdana, arial;
+font-weigth: 100;
+margin: 2% 0%;
+padding: 1%;
+}
+
+article h2 {
+border-bottom: 1px solid;
+color: #00A;
+font-family: arial;
+margin-bottom: 0.8%;
+}
+
+article p {
+color: #00b;
+}
+
+footer {
+color: #00B;
+font-family: verdana, arial;
+font-weight: bold;
+margin-top: 13%;
+margin-bottom: 1%;
+text-align: center;
+}
+
+footer a {
+color: #00B;
+text-decoration: none;
+}
+
+footer a:hover {
+color: #00F
+}
+
+header, nav {
+text-align: center;
+}
+
+header {
+margin: 2% 0 1.5% 0;
+}
+
+header h1 {
+font-family: arial;
+}
+
+nav {
+border-top: 3px solid;
+border-bottom: 2px solid;
+padding: 2px;
+}
+
+nav div{
+display: inline-block;
+margin: 0 1%;
+-moz-transform: rotate(5deg);
+-moz-transition: 0.1s;
+-webkit-transform: rotate(5deg);
+-webkit-transition: 0.1s;
+}
+
+nav div:hover{
+color: #00E;
+-webkit-transform: rotate(-7deg);
+-webkit-transition: 0.2s;
+-moz-transform: rotate(-7deg);
+-moz-transition: 0.2s;
+}
+
+nav div a {
+color: #E00;
+font-family: "Wellfleet", cursive;
+font-size: 1.1em;
+text-decoration: none;
+}
+
+section {
+margin: 2% 4%;
+}
